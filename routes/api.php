@@ -22,6 +22,7 @@ Route::post('/file', 'Api\FileController@store');
 Route::get('/google/language/support', 'Api\GoogleController@getLanguageSupport');
 
 
+    Route::post('/billing/postPaymentIntent', 'Api\BillingController@postPaymentIntent');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();

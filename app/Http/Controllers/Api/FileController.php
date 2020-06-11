@@ -41,7 +41,6 @@ class FileController extends Controller
         $file = File::create($validatedData);
 
         return response()->json(['result' => $file]);
-
     }
 
     /**
