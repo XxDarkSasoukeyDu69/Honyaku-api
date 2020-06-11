@@ -16,7 +16,7 @@ class MailContact extends Mailable
     /**
      * Create a new message instance.
      *
-     * @return void
+     * @param array $request
      */
     public function __construct($request)
     {
@@ -30,7 +30,8 @@ class MailContact extends Mailable
      */
     public function build()
     {
-        return $this->subject('Contact nouveau message')
-            ->view('mails.mail');
+
+        return $this->subject('Contact nouveau message')->from('sender@example.com')
+            ->view('emails.mail');
     }
 }
