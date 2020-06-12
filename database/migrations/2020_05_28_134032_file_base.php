@@ -15,12 +15,12 @@ class FileBase extends Migration
     {
         Schema::create('files', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->string('filemail');
-            $table->string('filename');
+            $table->string('fileMail');
+            $table->string('fileName');
             $table->uuid('translator')->nullable();
             $table->string('sourceLang');
             $table->string('targetLang');
-            $table->string('filetype');
+            $table->string('fileType');
             $table->longText('contentToTranslate');
             $table->longText('contentTranslate')->nullable();
             $table->string('state')->default('noTranslate');

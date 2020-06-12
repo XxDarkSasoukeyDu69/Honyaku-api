@@ -28,6 +28,6 @@ class File extends Model
     }
 
     protected $fillable = [
-        'filename', 'filemail', 'location', 'state', 'contentTranslate', 'contentToTranslate', 'translator'
+        'fileName', 'fileMail', 'location', 'state', 'contentTranslate', 'contentToTranslate', 'translator', 'sourceLang', 'targetLang', 'fileType'
     ];
 }

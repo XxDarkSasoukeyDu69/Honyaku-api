@@ -18,7 +18,7 @@ class AuthController extends Controller
             $validatedData = $request->validate([
                 'pseudo'      => 'required|max:55',
                 'email'     => 'email|required|unique:users',
-                'password'  => 'required|confirmed',
+                'password'  => 'required',
             ]);
 
             if($validatedData) {

@@ -30,7 +30,6 @@ class MailContact extends Mailable
      */
     public function build()
     {
-
         return $this->subject('Contact nouveau message')->from('sender@example.com')
             ->view('emails.mail');
     }

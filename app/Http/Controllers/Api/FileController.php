@@ -4,7 +4,9 @@ namespace App\Http\Controllers\Api;
 
 use App\File;
 use App\Http\Controllers\Controller;
+use App\Mail\MailOrderAccept;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class FileController extends Controller
 {
@@ -32,13 +34,18 @@ class FileController extends Controller
     public function store(Request $request)
     {
         $validatedData = $request->validate([
-            'filename' => 'required',
-            'filemail' => 'required',
-            'file' => 'required'
+            'fileName' => 'required',
+            'fileMail' => 'required',
+            'file' => 'required',
+            'targetLang' => 'required',
+            'sourceLang' => 'required',
+            'fileType' => 'required',
         ]);
 
         $validatedData['contentToTranslate'] = file_get_contents($validatedData['file']);
         $file = File::create($validatedData);
+
+        Mail::to($validatedData['fileMail'])->send(new MailOrderAccept($file->id));
 
         return response()->json(['result' => $file]);
     }
