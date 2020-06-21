@@ -162,10 +162,11 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+       // 'Barryvdh\Debugbar\ServiceProvider',
+        Lanin\Laravel\ApiDebugger\ServiceProvider::class,
         /*
          * Package Service Providers...
          */
-
         /*
          * Application Service Providers...
          */

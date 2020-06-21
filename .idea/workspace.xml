@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88212786-e63b-408f-9813-07a60baa80b3" name="Default Changelist" comment="mail">
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/mailOrderPassed.blade.php" afterDir="false" />
+    <list default="true" id="88212786-e63b-408f-9813-07a60baa80b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/emails/MailFileTranslateFinished.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/traduction_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/traduction_api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rnd" beforeDir="false" afterPath="$PROJECT_DIR$/.rnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/File.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/FileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/FileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/MailContact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/MailContact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_28_134032_file_base.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_28_134032_file_base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/emails/mail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/mail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/GoogleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/GoogleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +21,7 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <executable />
+      <executable path="composer" />
     </execution>
   </component>
   <component name="Git.Settings">
@@ -145,6 +146,7 @@
       <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
       <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
       <path value="$PROJECT_DIR$/vendor/laravel/cashier" />
+      <path value="$PROJECT_DIR$/vendor/lanin/laravel-api-debugger" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cXi78pkWvXw6Q22lFmqIZmvCiU" />
@@ -198,7 +200,13 @@
       <workItem from="1590681172768" duration="7205000" />
       <workItem from="1591097145755" duration="898000" />
       <workItem from="1591383240061" duration="10041000" />
-      <workItem from="1591699103416" duration="13315000" />
+      <workItem from="1591699103416" duration="16232000" />
+      <workItem from="1591988625821" duration="4098000" />
+      <workItem from="1592215263992" duration="8123000" />
+      <workItem from="1592501977684" duration="8982000" />
+      <workItem from="1592586376887" duration="15000" />
+      <workItem from="1592586410750" duration="9000" />
+      <workItem from="1592674080439" duration="14291000" />
     </task>
     <task id="LOCAL-00001" summary="mail">
       <created>1591900578484</created>
@@ -256,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591904599673</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="mail">
+      <created>1591978475869</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591978475869</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,21 +286,35 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="344" y="51" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1591647924126" />
-    <state x="634" y="300" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591959238950">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="634" y="302" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592727818389">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="634" y="300" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1591959238950" />
+    <state x="634" y="302" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1592727818389" />
+    <state x="634" y="300" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1591985118512" />
+    <state x="634" y="301" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1792.1030@0.23.1792.1030" timestamp="1592057853026" />
     <state x="634" y="302" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1792.1034@0.23.1792.1034" timestamp="1590674130089" />
     <state x="634" y="303" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1792.1037@0.23.1792.1037" timestamp="1590677117972" />
     <state x="634" y="304" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1590682417311" />
-    <state x="454" y="52" key="CommitChangelistDialog2" timestamp="1591904599540">
+    <state x="454" y="52" key="CommitChangelistDialog2" timestamp="1591978475726">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="454" y="52" key="CommitChangelistDialog2/0.23.1792.1028@0.23.1792.1028" timestamp="1591904599540" />
-    <state x="496" y="273" key="Vcs.Push.Dialog.v2" timestamp="1591904604712">
+    <state x="454" y="52" key="CommitChangelistDialog2/0.23.1792.1028@0.23.1792.1028" timestamp="1591978475726" />
+    <state x="630" y="456" key="ComposerInitDialogKey" timestamp="1591986495517">
+      <screen x="0" y="23" width="1792" height="1030" />
+    </state>
+    <state x="630" y="456" key="ComposerInitDialogKey/0.23.1792.1030@0.23.1792.1030" timestamp="1591986495517" />
+    <state x="714" y="486" key="NewPhpFileDialog" timestamp="1592726496638">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="714" y="486" key="NewPhpFileDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1592726496638" />
+    <state x="496" y="273" key="Vcs.Push.Dialog.v2" timestamp="1591978481716">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="496" y="273" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1591904604712" />
+    <state x="496" y="273" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1591978481716" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1592677338217">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1592677338217" />
     <state x="658" y="158" key="refactoring.ChangeSignatureDialog" timestamp="1591959289137">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
