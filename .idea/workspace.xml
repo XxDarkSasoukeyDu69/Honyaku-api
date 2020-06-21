@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="88212786-e63b-408f-9813-07a60baa80b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +198,7 @@
       <workItem from="1592501977684" duration="8982000" />
       <workItem from="1592586376887" duration="15000" />
       <workItem from="1592586410750" duration="9000" />
-      <workItem from="1592674080439" duration="14462000" />
+      <workItem from="1592674080439" duration="15503000" />
     </task>
     <task id="LOCAL-00001" summary="mail">
       <created>1591900578484</created>
@@ -269,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592733607111</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="mail">
+      <created>1592734027207</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592734027207</updated>
+    </task>
+    <task id="LOCAL-00012" summary="mail">
+      <created>1592734160280</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592734160280</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,10 +308,10 @@
     <state x="634" y="302" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1792.1034@0.23.1792.1034" timestamp="1590674130089" />
     <state x="634" y="303" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1792.1037@0.23.1792.1037" timestamp="1590677117972" />
     <state x="634" y="304" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1590682417311" />
-    <state x="454" y="32" key="CommitChangelistDialog2" timestamp="1592734027099">
+    <state x="454" y="32" key="CommitChangelistDialog2" timestamp="1592734160173">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="454" y="32" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1592734027099" />
+    <state x="454" y="32" key="CommitChangelistDialog2/0.0.1792.1120@0.0.1792.1120" timestamp="1592734160173" />
     <state x="454" y="52" key="CommitChangelistDialog2/0.23.1792.1028@0.23.1792.1028" timestamp="1591978475726" />
     <state x="630" y="456" key="ComposerInitDialogKey" timestamp="1591986495517">
       <screen x="0" y="23" width="1792" height="1030" />
@@ -306,10 +321,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="714" y="486" key="NewPhpFileDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1592726496638" />
-    <state x="496" y="272" key="Vcs.Push.Dialog.v2" timestamp="1592734154495">
+    <state x="496" y="272" key="Vcs.Push.Dialog.v2" timestamp="1592734167228">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1592734154495" />
+    <state x="496" y="272" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1592734167228" />
     <state x="496" y="273" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1591978481716" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1592677338217">
       <screen x="0" y="0" width="1792" height="1120" />
