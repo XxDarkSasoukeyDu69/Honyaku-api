@@ -73,7 +73,7 @@ class StripeController extends Controller
 
         $file = File::find($validatedData['file_id']);
 
-        \Stripe\Stripe::setApiKey('sk_test_51GrrvuA5V0shW7u31WIUaJhy5hM6JjCr1CPRiWkbOn78z3DfEEdLxQoD7bAn0L5OQljCeHgMDO7Qg75JwZKcmskO00WMM52Gj9');
+        \Stripe\Stripe::setApiKey(''.env('STRIPE_KEY').'');
         $amount = $this->calculateOrderAmount(strlen($file->contentToTranslate));
         $paymentIntent = \Stripe\PaymentIntent::create([
             'amount' => $amount,
@@ -83,7 +83,7 @@ class StripeController extends Controller
         ]);
 
         return response()->json([
-            'publishable_key' => 'sk_test_51GrrvuA5V0shW7u31WIUaJhy5hM6JjCr1CPRiWkbOn78z3DfEEdLxQoD7bAn0L5OQljCeHgMDO7Qg75JwZKcmskO00WMM52Gj9',
+            'publishable_key' => env('STRIPE_KEY'),
             'client_secret' => $paymentIntent->client_secret,
             'file_id' => $file->id,
             'amount' => $amount,
