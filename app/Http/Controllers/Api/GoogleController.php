@@ -10,7 +10,7 @@ class GoogleController extends Controller
     public function getLanguageSupport() {
         $client = new \GuzzleHttp\Client();
 
-        $response = $client->request('GET', 'https://translation.googleapis.com/language/translate/v2/languages?key=AIzaSyASRBU66AiGFr_EW4OK-pvwvg79wCDy63A' . env('GOOGLE_TRANSLATE_KEY'));
+        $response = $client->request('GET', 'https://translation.googleapis.com/language/translate/v2/languages?key=' . env('GOOGLE_TRANSLATE_KEY'));
         $responseString = $response->getBody();
         $responseJson = json_decode($responseString);
 
@@ -20,7 +20,7 @@ class GoogleController extends Controller
     public function translate($content, $source, $target) {
 
         $client = new \GuzzleHttp\Client();
-        $response = $client->request('GET', 'https://translation.googleapis.com/language/translate/v2?key=AIzaSyASRBU66AiGFr_EW4OK-pvwvg79wCDy63A&q='. $content .'&target='. $target .'&source='. $source .'');
+        $response = $client->request('GET', 'https://translation.googleapis.com/language/translate/v2?key=' . env('GOOGLE_TRANSLATE_KEY') . '&q='. $content .'&target='. $target .'&source='. $source .'');
         $responseString = $response->getBody();
         $responseJson = json_decode($responseString);
 
